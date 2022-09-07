@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 
-import {Facebook, FacebookLoginResponse} from '@ionic-native/facebook/ngx';
+import {Facebook, FacebookLoginResponse} from '@awesome-cordova-plugins/facebook/ngx';
 
 @Component({
     selector: 'app-home',

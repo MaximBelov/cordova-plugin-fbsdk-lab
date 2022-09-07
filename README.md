@@ -1,6 +1,6 @@
 # Cordova Plugin Facebook Connect Lab
 
-A demo application for the [cordova-plugin-facebook-connect](https://github.com/cordova-plugin-facebook-connect/cordova-plugin-facebook-connect).
+A demo application for the [cordova-plugin-fbsdk](https://github.com/MaximBelov/cordova-plugin-fbsdk).
 
 Useful if you want to try out the plugin or want to reproduce a bug or build errors.
 
@@ -13,9 +13,12 @@ This application is configured with a Facebook App ID linked to my personal Face
 To get and install locally this project, run the following commands to clone it and install the dependencies.
 
 ```
-git clone https://github.com/cordova-plugin-facebook-connect/cordova-plugin-facebook-connect-lab
-cd cordova-plugin-facebook-connect-lab
+git clone https://github.com/MaximBelov/cordova-plugin-fbsdk-lab
+cd cordova-plugin-fbsdk-lab
 npm install
+
+set your CLIENT_TOKEN
+
 ```
 
 ### iOS
@@ -40,7 +43,7 @@ Once the application's bundle ready, open `./platforms/android` in Android Studi
 
 ## Documentation
 
-More documentation and information? Check out the [cordova-plugin-facebook-connect](https://github.com/cordova-plugin-facebook-connect/cordova-plugin-facebook-connect) plugin repo.
+More documentation and information? Check out the [cordova-plugin-fbsdk](https://github.com/MaximBelov/cordova-plugin-facebook-connect) plugin repo.
 
 ## License
 
