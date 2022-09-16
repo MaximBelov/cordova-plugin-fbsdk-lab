@@ -41,4 +41,24 @@ export class HomePage {
         });
     }
 
+    testGameRequest() {
+        const options = {
+            method: "apprequests",
+            message: "Come on man, check out my application.",
+            data: 'data',
+            title: 'title',
+            actionType: 'askfor',
+            objectID: 'YOUR_OBJECT_ID',
+            filters: 'app_non_users'
+        };
+
+        this.fb.showDialog(options).then((result) => {
+            console.log('GameRequest', JSON.stringify(result));
+            alert('GameRequest OK');
+        }).catch((e) => {
+            console.log(e);
+            alert('GameRequest ERROR');
+        });
+    }
+
 }
