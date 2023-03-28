@@ -10,7 +10,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:android": "ionic cordova build android"
+    "build:android": "ionic cordova build android",
+    "build:ios": "ionic cordova build ios"
   },
   "private": true,
   "dependencies": {
@@ -46,9 +47,9 @@
     "@types/node": "18.7.15",
     "ajv": "8.8.2",
     "cordova-plugin-device": "2.1.0",
+    "cordova-plugin-fbsdk": "git+https://github.com/MaximBelov/cordova-plugin-fbsdk.git#4.0.4-sdk16",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
     "cordova-plugin-ionic-webview": "5.0.0",
-    "cordova-plugin-fbsdk": "git+https://github.com/MaximBelov/cordova-plugin-fbsdk.git#game-request-dialog",
     "cordova-plugin-statusbar": "3.0.0",
     "ts-node": "10.9.1",
     "tslint": "6.1.3",
@@ -70,9 +71,9 @@
         "FACEBOOK_AUTO_LOG_APP_EVENTS": "true",
         "FACEBOOK_HYBRID_APP_EVENTS": "false",
         "FACEBOOK_ADVERTISER_ID_COLLECTION": "true",
-        "FACEBOOK_ANDROID_SDK_VERSION": "14.1.1",
-        "FACEBOOK_IOS_SDK_VERSION": "14.1.0",
-        "FACEBOOK_BROWSER_SDK_VERSION": "v14.0"
+        "FACEBOOK_ANDROID_SDK_VERSION": "16.0.1",
+        "FACEBOOK_IOS_SDK_VERSION": "16.0.0",
+        "FACEBOOK_BROWSER_SDK_VERSION": "v16.0"
       }
     },
     "platforms": [

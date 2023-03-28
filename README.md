@@ -4,6 +4,15 @@ A demo application for the [cordova-plugin-fbsdk](https://github.com/MaximBelov/
 
 Useful if you want to try out the plugin or want to reproduce a bug or build errors.
 
+## Note about native versions 
+### iOS
+
+- https://github.com/CocoaPods/Specs/tree/master/Specs/5/4/9/FBSDKCoreKit_Basics
+- https://cdn.cocoapods.org/all_pods_versions_5_4_9.txt
+
+### Android: 
+- https://mvnrepository.com/artifact/com.facebook.android/facebook-android-sdk
+
 ## Note about IDs
 
 This application is configured with a Facebook App ID linked to my personal Facebook account. Please be cool, don't use these information elsewhere than for testing purpose.
