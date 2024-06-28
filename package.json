@@ -11,7 +11,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:android": "ionic cordova build android",
-    "build:ios": "ionic cordova build ios"
+    "build:ios": "rm -rf {platforms,plugins}; ionic cordova build ios",
+    "cleanUp": "rm -rf {platforms,plugins}"
   },
   "private": true,
   "dependencies": {
@@ -26,7 +27,7 @@
     "@awesome-cordova-plugins/splash-screen": "6.7.0",
     "@awesome-cordova-plugins/status-bar": "6.7.0",
     "@ionic/angular": "6.2.5",
-    "cordova-android": "12.0.1",
+    "cordova-android": "13.0.0",
     "cordova-ios": "7.1.0",
     "core-js": "3.25.0",
     "rxjs": "7.5.6",
@@ -47,9 +48,9 @@
     "@types/node": "18.7.15",
     "ajv": "6.9.1",
     "cordova-plugin-device": "2.1.0",
-    "cordova-plugin-fbsdk": "github:MaximBelov/cordova-plugin-fbsdk#4.1.0",
+    "cordova-plugin-fbsdk": "4.1.1",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
-    "cordova-plugin-ionic-webview": "5.0.1",
+    "cordova-plugin-ionic-webview": "github:MaximBelov/cordova-plugin-ionic-webview#5.0.1-custom",
     "cordova-plugin-statusbar": "4.0.0",
     "ts-node": "10.9.1",
     "tslint": "6.1.3",
@@ -72,7 +73,7 @@
         "FACEBOOK_HYBRID_APP_EVENTS": "false",
         "FACEBOOK_ADVERTISER_ID_COLLECTION": "true",
         "FACEBOOK_ANDROID_SDK_VERSION": "17.0.0",
-        "FACEBOOK_IOS_SDK_VERSION": "17.0.0",
+        "FACEBOOK_IOS_SDK_VERSION": "17.0.2",
         "FACEBOOK_BROWSER_SDK_VERSION": "v19.0"
       }
     },
